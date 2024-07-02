@@ -1,5 +1,5 @@
-## Provo High School Website (Wordpress)
-- [Provo High School Website](https://provohigh.provo.edu/)
+## Edgemont Elementary Website (Wordpress)
+- [Edgemont Elementary Website](https://edgemont.provo.edu/)
 
 
 You'll need to get the following directories and Database from Backup:
@@ -8,4 +8,4 @@ You'll need to get the following directories and Database from Backup:
 - .env file is in password manager
 
 # Uses
-- [PCSD-2024-Theme](https://linktorep/)
+- [PCSD-2019-Theme](https://github.com/Provo-City-School-District/PCSD-2019-Theme)
