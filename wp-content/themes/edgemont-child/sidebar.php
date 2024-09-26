@@ -1,5 +1,13 @@
 <aside id="mainSidebar">
-	<img src="https://edgemont.provo.edu/wp-content/uploads/2024/07/utah-stem-school-designation-logo-07092024.png" class="center" alt="Best Elementary Schools by US News Badge" />
+	<section class="badges">
+		<img src="https://edgemont.provo.edu/wp-content/uploads/2024/07/utah-stem-school-designation-logo-07092024.png" class="center" alt="Best Elementary Schools by US News Badge" />
+		<!-- Begin National Blue Ribbon Schools Program Copy-n-paste Embed Code for Edgemont Elementary School-->
+		<a title="link to school profile" href="//nationalblueribbonschools.ed.gov/awardwinners/winning/24ut103pu_edgemont_elementary_school.html?ref=embedcode&schoolcode=24UT103PU">
+			<img src="https://nationalblueribbonschools.ed.gov/assets/winning/asset/logos/2024_nbrs_logo.jpg" height="200" width="200" alt="National Blue Ribbon Schools Program Logo - At Edgemont Elementary We SOAR!" id="National_Blue_Ribbon_Schools_Program_Logo" title="National Blue Ribbon Schools Program Logo" />
+			<!-- End National Blue Ribbon Schools Program Copy-n-paste Embed Code  for Edgemont Elementary School-->
+	</section>
+
+
 	<section class="calendar-agenda">
 		<h1>Today’s Events</h1>
 		<?php echo do_shortcode('[calendar id="172"]'); ?>
