@@ -3,7 +3,7 @@
 		<img src="https://edgemont.provo.edu/wp-content/uploads/2024/07/utah-stem-school-designation-logo-07092024.png" class="center" alt="Best Elementary Schools by US News Badge" />
 		<!-- Begin National Blue Ribbon Schools Program Copy-n-paste Embed Code for Edgemont Elementary School-->
 		<a title="link to school profile" href="//nationalblueribbonschools.ed.gov/awardwinners/winning/24ut103pu_edgemont_elementary_school.html?ref=embedcode&schoolcode=24UT103PU">
-			<img src="https://nationalblueribbonschools.ed.gov/assets/winning/asset/logos/2024_nbrs_logo.jpg" height="200" width="200" alt="National Blue Ribbon Schools Program Logo - At Edgemont Elementary We SOAR!" id="National_Blue_Ribbon_Schools_Program_Logo" title="National Blue Ribbon Schools Program Logo" />
+			<img src="https://edgemont.provo.edu/wp-content/uploads/2024/10/137407-10012024-national-blue-ribbon-logo-transparent.png" height="200" width="200" alt="National Blue Ribbon Schools Program Logo - At Edgemont Elementary We SOAR!" id="National_Blue_Ribbon_Schools_Program_Logo" title="National Blue Ribbon Schools Program Logo" />
 			<!-- End National Blue Ribbon Schools Program Copy-n-paste Embed Code  for Edgemont Elementary School-->
 	</section>
 
