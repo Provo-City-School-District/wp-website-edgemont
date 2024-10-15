@@ -401,36 +401,6 @@ Teacher access
 }
 
 /*================================================================================================================
- skip link styling
- ================================================================================================================*/
-.skip-to-link {
-	left: -999px;
-	position: absolute;
-	top: auto;
-	width: 1px;
-	height: 1px;
-	overflow: hidden;
-	z-index: -999;
-}
-
-.skip-to-link:focus,
-.skip-to-link:active {
-	color: #fff;
-	background-color: #000;
-	left: auto;
-	top: auto;
-	width: 20%;
-	height: auto;
-	overflow: auto;
-	margin: 10px 35%;
-	padding: 5px;
-	border-radius: 15px;
-	text-align: center;
-	font-size: 1.2em;
-	z-index: 9999;
-}
-
-/*================================================================================================================
   TranslatePress Menu
   ================================================================================================================*/
 #trp-floater-ls-current-language .trp-ls-disabled-language img {
