@@ -403,8 +403,7 @@ Teacher access
 /*================================================================================================================
  skip link styling
  ================================================================================================================*/
-a.skip-to-menu,
-a.skip-to-content {
+.skip-to-link {
 	left: -999px;
 	position: absolute;
 	top: auto;
@@ -414,10 +413,8 @@ a.skip-to-content {
 	z-index: -999;
 }
 
-a.skip-to-menu:focus,
-a.skip-to-menu:active,
-a.skip-to-content:focus,
-a.skip-to-content:active {
+.skip-to-link:focus,
+.skip-to-link:active {
 	color: #fff;
 	background-color: #000;
 	left: auto;
