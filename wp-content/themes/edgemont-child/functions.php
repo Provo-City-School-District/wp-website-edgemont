@@ -1,12 +1,11 @@
 <?php
-$app_version = '1.0.2';
+$app_version = '1.0.3';
 /*==========================================================================================
 Add stylesheets/javascripts to enqueue
 ============================================================================================*/
 function my_theme_enqueue_styles()
 {
 	global $app_version;
-	wp_enqueue_style('parent-theme', get_template_directory_uri() . '/style.css', '', $app_version, false);
 	wp_enqueue_script('child_scripts', get_theme_file_uri() . '/assets/js/child-scripts.js', '', $app_version, true);
 	wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', '', $app_version, false);
 }
@@ -30,7 +29,6 @@ Custom Excerpt
 function get_excerpt()
 {
 	$excerpt = get_the_content();
-	//$excerpt = preg_replace(" ([*~])",'',$excerpt);
 	$excerpt = strip_shortcodes($excerpt);
 	$excerpt = strip_tags($excerpt);
 	$excerpt = substr($excerpt, 0, 200);
@@ -78,12 +76,7 @@ function sidebar_func()
 	//global $post;
 	if (in_array(117, get_post_ancestors($post))) {
 		get_sidebar('about');
-	} //elseif(in_array( 117, get_post_ancestors($post))) {
-	//get_sidebar( 'counseling' );
-	//} elseif(in_array( 43352, get_post_ancestors($post))) {
-	//get_sidebar( 'extracurricular' );
-	//}
-	elseif (in_array(122, get_post_ancestors($post))) {
+	} elseif (in_array(122, get_post_ancestors($post))) {
 		get_sidebar('policies-forms');
 	} elseif (in_array(70, get_post_ancestors($post))) {
 		get_sidebar('faculty-staff');
@@ -92,9 +85,6 @@ function sidebar_func()
 	}
 }
 add_shortcode('sidebar-control', 'sidebar_func');
-
-
-
 
 /*-------------------------------------------------------*/
 //Menu Splash Page fetchs
