@@ -304,8 +304,6 @@ sidebar Area
 	color: var(--theme-white);
 }
 
-
-
 #mainSidebar a:hover,
 .imagelist li a:hover span {
 	color: var(--link-hover-color);
