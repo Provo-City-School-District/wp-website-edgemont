@@ -5,7 +5,7 @@
  Author:       Josh Espinoza, Rob Francom, Shauna Sprunger
  Author URI:   https://tech.provo.edu
  Template:     pcsd-2019-theme
- Version:      1.0.1
+ Version:      1.0.05
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  edgemont-child
@@ -26,7 +26,7 @@ Variables
 	--link-color: #543D08;
 	--link-hover-color: #534D08;
 	--content-text: #02224f;
-	--mega-menu-hover: var(--link-hover-color);
+	--mega-menu-hover: var(--primary-color);
 }
 
 /*================================================================================================================
