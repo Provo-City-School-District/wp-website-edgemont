@@ -26,6 +26,7 @@ Variables
 	--link-color: #543D08;
 	--link-hover-color: #534D08;
 	--content-text: #02224f;
+	--mega-menu-hover: var(--link-hover-color);
 }
 
 /*================================================================================================================
@@ -179,6 +180,10 @@ Main Menu
 .mega-menu {
 	background: rgba(240, 240, 240, 0.97);
 	box-shadow: 1px 3px 5px var(--theme-black);
+}
+
+.mega-menu a:hover {
+	color: var(--mega-menu-hover);
 }
 
 /*==================================================
